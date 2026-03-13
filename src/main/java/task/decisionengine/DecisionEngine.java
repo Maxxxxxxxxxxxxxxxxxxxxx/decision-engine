@@ -55,8 +55,14 @@ public class DecisionEngine {
                 if (data.getAmount().equals(maxCreditAmount) || data.getAmount() < maxCreditAmount) {
                     var credit = Credit.builder().duration(data.getLoanPeriod()).amount(data.getAmount()).build();
 
-                    userData.setCredit(credit);
-                    userRepository.save(userData);
+//                    userData.setCredit(credit);
+//                    userRepository.save(userData);
+
+                    log.info("Approved loan for User#{}, amount: {}, duration: {}",
+                            userData.getUserCode(),
+                            credit.getAmount(),
+                            credit.getDuration()
+                    );
 
                     return CreditResponse.builder().credit(credit).decision(true).build();
                 }

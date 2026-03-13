@@ -24,8 +24,8 @@ public class DecisionController {
 
     @PostMapping("/")
     ResponseEntity<CreditResponse> requestCredit(@RequestBody CreditRequest body) {
-        var engineResponse = engine.assessCreditScore(body);
         log.info("Received credit request for user {}, amount: {}", body.getUserCode(), body.getAmount());
+        var engineResponse = engine.assessCreditScore(body);
 
         return ResponseEntity.status(HttpStatus.OK).body(engineResponse);
     }

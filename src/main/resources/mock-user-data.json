@@ -1,27 +1,38 @@
 [
   {
-    "userCode": "10201100007865",
+    "userCode": "1019",
+    "creditModifier": 1200.50,
+    "duration": 60,
+    "amount": 15000
+  },
+  {
+    "userCode": "1020",
     "creditModifier": 245.50,
-    "credit": null
+    "duration": null,
+    "amount": null
   },
   {
-    "userCode": "10202345009112",
+    "userCode": "1021",
     "creditModifier": 678.30,
-    "credit": null
+    "duration": null,
+    "amount": null
   },
   {
-    "userCode": "10203456004567",
+    "userCode": "1023",
     "creditModifier": 512.75,
-    "credit": null
+    "duration": null,
+    "amount": null
   },
   {
-    "userCode": "10204567009834",
+    "userCode": "1024",
     "creditModifier": 934.10,
-    "credit": null
+    "duration": null,
+    "amount": null
   },
   {
-    "userCode": "10205678001239",
+    "userCode": "1025",
     "creditModifier": 389.95,
-    "credit": null
+    "duration": null,
+    "amount": null
   }
 ]
