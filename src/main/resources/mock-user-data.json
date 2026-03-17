@@ -2,37 +2,29 @@
   {
     "userCode": "1019",
     "creditModifier": 1200.50,
-    "duration": 60,
-    "amount": 15000
+    "credit": {
+      "duration": 60,
+      "amount": 15000
+    }
   },
   {
     "userCode": "1020",
-    "creditModifier": 245.50,
-    "duration": null,
-    "amount": null
+    "creditModifier": 245.50
   },
   {
     "userCode": "1021",
-    "creditModifier": 678.30,
-    "duration": null,
-    "amount": null
+    "creditModifier": 678.30
   },
   {
     "userCode": "1023",
-    "creditModifier": 512.75,
-    "duration": null,
-    "amount": null
+    "creditModifier": 512.75
   },
   {
     "userCode": "1024",
-    "creditModifier": 934.10,
-    "duration": null,
-    "amount": null
+    "creditModifier": 934.10
   },
   {
     "userCode": "1025",
-    "creditModifier": 389.95,
-    "duration": null,
-    "amount": null
+    "creditModifier": 389.95
   }
 ]

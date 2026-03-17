@@ -44,7 +44,6 @@ public class DecisionEngine {
         var userData = userRepository.findByUserCode(data.getUserCode());
 
         if (userData == null) return CreditResponse.denied("User not found");
-
         if (userData.getCredit() != null) return CreditResponse.denied("User already has debt");
         else {
             try {

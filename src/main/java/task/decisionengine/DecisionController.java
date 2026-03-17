@@ -22,9 +22,9 @@ public class DecisionController {
 
     private static final Logger log = LoggerFactory.getLogger(DecisionController.class);
 
-    @PostMapping("/")
+    @PostMapping
     ResponseEntity<CreditResponse> requestCredit(@RequestBody CreditRequest body) {
-        log.info("Received credit request for user {}, amount: {}", body.getUserCode(), body.getAmount());
+        log.info("Received credit request for user {}, amount: {}, period: {}", body.getUserCode(), body.getAmount(), body.getLoanPeriod());
         var engineResponse = engine.assessCreditScore(body);
 
         return ResponseEntity.status(HttpStatus.OK).body(engineResponse);
