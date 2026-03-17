@@ -2,6 +2,8 @@
 
 A simple **Spring Boot decision engine** that evaluates credit requests and returns a calculated **credit score decision**.  
 
+[Link to the frontend repo](https://github.com/Maxxxxxxxxxxxxxxxxxxxxx/decision-engine-fe)
+
 ## Overview
 
 The Decision Engine processes incoming credit requests and evaluates them using a scoring mechanism.
