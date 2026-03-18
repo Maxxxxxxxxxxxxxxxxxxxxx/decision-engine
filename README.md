@@ -1,6 +1,7 @@
 # Decision Engine: recruitment task
 
 A simple **Spring Boot decision engine** that evaluates credit requests and returns a calculated **credit score decision**.  
+The app is configured to work on port 5173 for frontend (default Vite port) and 8080 for backend (default Spring port)
 
 [Link to the frontend repo](https://github.com/Maxxxxxxxxxxxxxxxxxxxxx/decision-engine-fe)
 
